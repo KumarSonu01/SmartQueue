@@ -1,4 +1,4 @@
-import { Clock, Mail, Phone, MapPin } from "lucide-react";
+import { Clock, Mail, Phone, MapPin, Instagram, Twitter, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function Footer() {
@@ -17,15 +17,30 @@ export function Footer() {
               through intelligent queue management.
             </p>
             <div className="flex gap-4">
-              <div className="w-10 h-10 bg-background/10 rounded-lg flex items-center justify-center hover:bg-background/20 transition-colors cursor-pointer">
-                <span className="text-sm font-bold">f</span>
-              </div>
-              <div className="w-10 h-10 bg-background/10 rounded-lg flex items-center justify-center hover:bg-background/20 transition-colors cursor-pointer">
-                <span className="text-sm font-bold">t</span>
-              </div>
-              <div className="w-10 h-10 bg-background/10 rounded-lg flex items-center justify-center hover:bg-background/20 transition-colors cursor-pointer">
-                <span className="text-sm font-bold">in</span>
-              </div>
+              <a 
+                href="https://www.instagram.com/itskumarforu/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-background/10 rounded-lg flex items-center justify-center hover:bg-background/20 transition-colors"
+              >
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a 
+                href="https://x.com/KumaRSonU0307" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-background/10 rounded-lg flex items-center justify-center hover:bg-background/20 transition-colors"
+              >
+                <Twitter className="h-5 w-5" />
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/sonukumar01/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-background/10 rounded-lg flex items-center justify-center hover:bg-background/20 transition-colors"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
             </div>
           </div>
 
